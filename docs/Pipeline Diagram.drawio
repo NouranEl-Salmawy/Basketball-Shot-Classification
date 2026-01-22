@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.4">
+  <diagram name="Page-1" id="udclh7IzJWsS1FQGvprv">
+    <mxGraphModel dx="1636" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L_AB7IeFjC99Iyv2KT-h-12" edge="1" parent="1" source="L_AB7IeFjC99Iyv2KT-h-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" target="L_AB7IeFjC99Iyv2KT-h-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AB7IeFjC99Iyv2KT-h-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" value="&lt;font&gt;&lt;br&gt;&lt;b data-path-to-node=&quot;12,0&quot; data-index-in-node=&quot;0&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;SEGMENTATION&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Adaptive Thresholding (Height &amp;amp;&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Gender Adj.)&lt;br&gt;Peak Detection (&amp;gt;11.5 m/s^2)&lt;br&gt;Dynamic Windowing (2s)&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="-80" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AB7IeFjC99Iyv2KT-h-13" edge="1" parent="1" source="L_AB7IeFjC99Iyv2KT-h-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" target="L_AB7IeFjC99Iyv2KT-h-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AB7IeFjC99Iyv2KT-h-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;b data-path-to-node=&quot;14,0&quot; data-index-in-node=&quot;0&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;&lt;font style=&quot;&quot;&gt;FEATURE EXTRACTION&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;&quot;&gt;&lt;span data-path-to-node=&quot;14,0&quot; data-index-in-node=&quot;19&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;Time:&lt;/span&gt;&amp;nbsp;Mean, Std, Skew, Kurtosis&lt;br&gt;&lt;span data-path-to-node=&quot;14,0&quot; data-index-in-node=&quot;53&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;Freq:&lt;/span&gt; FFT, Spectral Energy&lt;br&gt;&lt;span data-path-to-node=&quot;14,0&quot; data-index-in-node=&quot;80&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;Physics:&lt;/span&gt; Jerk, SMA&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="120" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AB7IeFjC99Iyv2KT-h-14" edge="1" parent="1" source="L_AB7IeFjC99Iyv2KT-h-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" target="L_AB7IeFjC99Iyv2KT-h-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AB7IeFjC99Iyv2KT-h-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=Times New Roman;" value="&lt;font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b data-path-to-node=&quot;16,0&quot; data-index-in-node=&quot;0&quot;&gt;&lt;font style=&quot;&quot;&gt;CLASSIFICATION&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;&quot;&gt;Multi-Model Evaluation&lt;br&gt;Stratified K-Fold (k=5)&lt;br&gt;Grid Search Optimization&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AB7IeFjC99Iyv2KT-h-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;b data-path-to-node=&quot;18,0&quot; data-index-in-node=&quot;0&quot;&gt;&lt;font style=&quot;&quot;&gt;OUTPUT&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;&quot;&gt;Shot Class Prediction&lt;br&gt;(The Paint, The Free Throw Line,&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;The 3-Point Zone)&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="520" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AB7IeFjC99Iyv2KT-h-11" edge="1" parent="1" source="L_AB7IeFjC99Iyv2KT-h-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" target="L_AB7IeFjC99Iyv2KT-h-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AB7IeFjC99Iyv2KT-h-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;b data-path-to-node=&quot;10,0&quot; data-index-in-node=&quot;0&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Times New Roman&quot;&gt;PREPROCESSING&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;&quot;&gt;Linear Interpolation (50Hz)&lt;br&gt;Gravity Removal&lt;br&gt;Magnitude Calc Amag&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="-280" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AB7IeFjC99Iyv2KT-h-10" edge="1" parent="1" source="L_AB7IeFjC99Iyv2KT-h-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" target="L_AB7IeFjC99Iyv2KT-h-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_AB7IeFjC99Iyv2KT-h-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;spacing=2;verticalAlign=middle;" value="&lt;br&gt;&lt;b data-path-to-node=&quot;8,0&quot; data-index-in-node=&quot;0&quot;&gt;&lt;font&gt;DATA ACQUISITION&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Smartphone Sensors&lt;br&gt;(Accel, Gyro, Grav, Ori)&lt;br&gt;Sampling: Variable (~53Hz)&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="-480" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
