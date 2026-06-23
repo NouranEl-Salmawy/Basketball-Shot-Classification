@@ -62,7 +62,8 @@ To ensure optimal performance, a competitive benchmark was executed across nine 
 ├── notebooks/              # Comprehensive experimental pipeline
 │   └── Basketball_Shot_Classification.ipynb
 ├── docs/                   # Research paper, LaTeX sources, and diagrams
-│   └── Nouran Diagram.pdf                
+│   ├── Nouran Diagram.pdf
+|   └── Basketball_shot_classification.pdf # Paper
 └── README.md
 
 
